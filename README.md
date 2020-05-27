@@ -14,3 +14,4 @@
 ### Credit Resources (jQuery Plugin)
 
 #### Homepage water effect: https://sirxemic.github.io/jquery.ripples/
+> <script src="./resources/js/jquery.ripples-v6-3-min.js"></script>
