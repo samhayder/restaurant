@@ -15,6 +15,11 @@
 
 #### Homepage water effect: https://sirxemic.github.io/jquery.ripples/
 ```bash
-    css: <link rel="stylesheet" href="./resources/css/magnific-popup.css">
-    js: <script src="./resources/js/jquery.magnific-popup.js"></script>
+> js: <script src="./resources/js/jquery.magnific-popup.js"></script>
+```
+
+#### Magnific popup: https://sirxemic.github.io/jquery.ripples/
+```bash
+> css: <link rel="stylesheet" href="./resources/css/magnific-popup.css">
+> js: <script src="./resources/js/jquery.magnific-popup.js"></script>
 ```
