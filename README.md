@@ -14,8 +14,7 @@
 ### Credit Resources (jQuery Plugin)
 
 #### Homepage water effect: https://sirxemic.github.io/jquery.ripples/
-` 
-<script src="./resources/js/jquery.ripples-v6-3-min.js"></script>
-  <!-- Magnific Popup core JS file -->
-  <script src="./resources/js/jquery.magnific-popup.js"></script> 
-`
+```bash
+    css: <link rel="stylesheet" href="./resources/css/magnific-popup.css">
+    js: <script src="./resources/js/jquery.magnific-popup.js"></script>
+```
