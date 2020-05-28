@@ -1,7 +1,16 @@
 $(document).ready(function () {
-    //Water effect by ripples.js
-    $('#header, #homepage_top').ripples({
-        dropRadius: 05,
-        perturbance: 0.02
-    });
-})
+  //Ripples by Water effect in Homepage
+  $("#header, #homepage_top").ripples({
+    dropRadius: 05,
+    perturbance: 0.02,
+  });
+
+  //Magnific Popup by Menu Item img gallery show
+  $(".parent-container").magnificPopup({
+    delegate: "a",
+    type: "image",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
