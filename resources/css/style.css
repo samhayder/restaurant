@@ -12,7 +12,7 @@ font-family: 'Mali', cursive; */
 body {
   font-family: "Mali", cursive;
   color: var(--mainBlack);
-  background: url("../img/banner-bcg.jpeg") center/cover fixed no-repeat;
+  background: url("../img/body-bcg.jpeg") center/cover fixed no-repeat;
   margin: 0;
   padding: 0;
 }
@@ -95,7 +95,7 @@ a:hover {
   min-height: calc(100vh - 87px);
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/banner-bcg.jpeg") center/cover fixed no-repeat;
+    url("../img/banner-bcg.jpeg") center/cover no-repeat;
 }
 .height_90 {
   min-height: calc(100vh - 150px);
@@ -255,8 +255,32 @@ a.menu_link:hover {
 }
 
 /*------------------------------
-            HEADER
+            Menu Item List
 --------------------------------*/
+.menu_list_item {
+  background: linear-gradient(
+      rgba(255, 255, 2550, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../img/banner-bcg.jpeg") center/cover no-repeat;
+}
+
+.single_menu_item {
+  border: 0.1rem dotted var(--mainBlack);
+}
+
+.single_menu_item.spacial_item {
+  border: 0.1rem solid var(--mainPink);
+  position: relative;
+}
+
+.spacial_item_tag {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  color: var(--mainWhite);
+  background: var(--mainPink);
+}
 
 /*------------------------------
             HEADER
