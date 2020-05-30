@@ -293,61 +293,66 @@ a.menu_link:hover {
 /*------------------------------
             About
 --------------------------------*/
+.about_img_wrap {
+  position: relative;
+  height: 100vh;
+}
+.about_img_wrap:hover .about_img:not(:hover) {
+  opacity: 0.5;
+}
+
 .about_img {
   width: 12rem;
   position: absolute;
   transition: all 1s ease;
   opacity: 0.9;
 }
-
-.about_img_wrap {
-  position: relative;
-  height: 100vh;
+.about_img:hover {
+  outline: 0.8rem solid red;
+  outline-offset: 0.8rem;
+  transform: scale(1.5) rotate(15deg);
+  z-index: 50;
+  opacity: 1;
+  -webkit-transform: scale(1.5) rotate(15deg);
+  -moz-transform: scale(1.5) rotate(15deg);
+  -ms-transform: scale(1.5) rotate(15deg);
+  -o-transform: scale(1.5) rotate(15deg);
 }
-
 .about_img_1 {
   top: 30%;
   left: 0;
 }
-
 .about_img_2 {
   top: 30%;
   left: 40%;
   z-index: 10;
 }
-
 .about_img_3 {
   top: 40%;
   left: 20%;
   z-index: 9;
 }
-
 .about_img_4 {
   top: 50%;
   left: 0%;
   z-index: 20;
 }
-
 .about_img_5 {
   top: 50%;
   left: 40%;
 }
 
-.about_img:hover {
-  outline: 0.8rem solid red;
-  outline-offset: 0.8rem;
-  transform: scale(1.1) rotate(15deg);
-  z-index: 50;
-  opacity: 1;
-}
-
-.about_img_wrap:hover .about_img:not(:hover) {
-  opacity: 0.5;
-}
-
 /*------------------------------
-            HEADER
+            Reviews
 --------------------------------*/
+.review_item {
+  background: rgba(255, 255, 255, 0.7);
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.review_img {
+  width: 12rem;
+}
 
 /*------------------------------
             HEADER
