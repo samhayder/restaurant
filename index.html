@@ -630,8 +630,8 @@
     <section class="contact no_padding" id="contact">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-10 col-md-6 mx-auto my-3 align-self-center">
-            <div class="embed-responsive embed-responsive-21by9 height-60">
+          <div class="col-10 col-md-6 mx-auto my-3">
+            <div class="embed-responsive embed-responsive-21by9 height_60">
               <iframe
                 class="embed-responsive-item"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49740.07409484052!2d-77.12584286242868!3d38.81517515102603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64d3e93a4abf1%3A0xd7f52686dbc1012c!2sAlexandria%2C%20VA%2C%20USA!5e0!3m2!1sen!2sbd!4v1590857315793!5m2!1sen!2sbd"
@@ -645,7 +645,71 @@
             </div>
           </div>
           <!-- end of google map embed -->
-          <div class="col-10 col-md-6 mx-auto my-3"></div>
+          <div class="col-10 col-md-6 mx-auto my-3 align-self-center">
+            <div class="card py-3">
+              <div class="card-title">
+                <h1 class="text-capitalize text-center text_pink">
+                  contact list
+                </h1>
+              </div>
+              <div class="card-body">
+                <form action="#">
+                  <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="input-text">
+                        <i class="fas fa-user"></i>
+                      </span>
+                    </div>
+                    <!-- end input group prepend -->
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="Type your name here"
+                      id="text"
+                    />
+                  </div>
+                  <!-- end input group name -->
+                  <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="input-phone">
+                        <i class="fas fa-phone"></i>
+                      </span>
+                    </div>
+                    <!-- end input group prepend -->
+                    <input
+                      type="phone"
+                      class="form-control form-control-lg"
+                      placeholder="Type your phone here"
+                      id="phone"
+                    />
+                  </div>
+                  <!-- end input group name -->
+                  <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="input-email">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                    </div>
+                    <!-- end input group prepend -->
+                    <input
+                      type="email"
+                      class="form-control form-control-lg"
+                      placeholder="Type your email here"
+                      id="email"
+                    />
+                  </div>
+                  <!-- end input group name -->
+                  <button
+                    type="submit"
+                    class="btn btn-block btn-lg contact_btn"
+                  >
+                    <i class="fas fa-hand-point-right"></i> click here
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- end of contact list -->
         </div>
       </div>
     </section>

@@ -40,6 +40,9 @@ a:hover {
 .height_100 {
   height: 100vh;
 }
+.height_60 {
+  height: 60vh;
+}
 
 .boxed_btn {
   font-family: "Calligraffitti", cursive;
@@ -58,6 +61,18 @@ a:hover {
   background: var(--mainWhite);
   color: var(--mainBlack);
   border-color: var(--mainWhite);
+}
+.contact_btn {
+  color: red;
+  background: transparent;
+  border: 0.1rem solid red;
+  text-transform: capitalize;
+  transition: all 1s ease;
+}
+
+.contact_btn:hover {
+  background: red;
+  color: white;
 }
 
 .scroll_down {
@@ -355,8 +370,21 @@ a.menu_link:hover {
 }
 
 /*------------------------------
-            HEADER
+            Contact
 --------------------------------*/
+.contact .card {
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 1s ease;
+}
+.contact .card:hover {
+  opacity: 0.8;
+}
+
+.contact .card .input-group-text {
+  background: red;
+  color: wheat;
+  border-color: red;
+}
 
 /*------------------------------
             HEADER
