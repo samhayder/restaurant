@@ -40,6 +40,8 @@ $(".parent-container").magnificPopup({
 });
 ```
 
+## Documentation:
+
 #### Reviews section Bootstrap Carousel
 
 ```bash
