@@ -62,7 +62,7 @@
                           End Homepage Top
 -------------------------------------------------->
     <!----------------------------------------------
-                          Start Homepage Header 
+                          Start Homepage Banner 
 -------------------------------------------------->
     <header class="header" id="header">
       <div class="container">
@@ -85,12 +85,63 @@
       </a>
     </header>
     <!----------------------------------------------
-                          End Homepage Header 
+                          End Homepage Banner 
+-------------------------------------------------->
+    <!----------------------------------------------
+                          Start Menu Navbar
+-------------------------------------------------->
+    <nav class="navbar navbar-expand-lg">
+      <a href="#" class="navbar-brand text_slant text_pink text-capitalize mx-3"
+        >sushi monster</a
+      >
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+      >
+        <div class="toggle_btn">
+          <div class="bar bar_1"></div>
+          <div class="bar bar_2"></div>
+          <div class="bar bar_3"></div>
+        </div>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-capitalize">spacial item</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu_items" class="nav-link text-capitalize">menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link text-capitalize">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="nav-link text-capitalize">reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link text-capitalize">team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link text-capitalize">contact</a>
+          </li>
+        </ul>
+
+        <form class="form-inline d-none d-lg-block mr-5">
+          <button class="btn nav-btn" type="button">order online</button>
+        </form>
+      </div>
+    </nav>
+    <!----------------------------------------------
+                          End Menu Navbar 
 -------------------------------------------------->
     <!----------------------------------------------
                           Start Menu Img Items 
 -------------------------------------------------->
-    <section class="py-5 menu_items" id="spacial_homepage">
+    <section class="py-5 menu_items" id="menu_items">
       <div class="container my-5">
         <div class="row parent-container">
           <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 single_menu_item">
@@ -716,14 +767,42 @@
     <!----------------------------------------------
                           End Contact 
 -------------------------------------------------->
-
     <!----------------------------------------------
-                          Start Home 
+                          Start Footer 
 -------------------------------------------------->
-
+    <footer class="footer homepage_top p-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col d-flex justify-content-between align-items-baseline flex-wrap"
+          >
+            <div class="homepage_social_icons p-2">
+              <a href="#" class="text_pink social_icon mr-2">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="#" class="text_pink social_icon mr-2">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="text_pink social_icon mr-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text_pink social_icon mr-2">
+                <i class="fab fa-yelp"></i>
+              </a>
+            </div>
+            <h5 class="text-uppercase text_pink p-2">
+              &copy;copyright 2020.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!----------------------------------------------
-                          End Home 
+                          End Footer 
 -------------------------------------------------->
+    <a href="#homepage_top" id="back_to_top">
+      <i class="fas fa-arrow-up fa-3x"></i>
+    </a>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

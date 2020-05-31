@@ -15,6 +15,7 @@ body {
   background: url("../img/body-bcg.jpeg") center/cover fixed no-repeat;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 a {
@@ -91,6 +92,26 @@ a:hover {
 .scroll_down:hover {
   color: var(--mainBlack);
 }
+a#back_to_top {
+  position: absolute;
+}
+
+#back_to_top {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  background: var(--mainWhite);
+  color: var(--mainPink);
+  padding: 0.4rem;
+  display: inline-block;
+  border-radius: 0.6rem;
+  transition: all 1s ease;
+}
+
+#back_to_top:hover {
+  background: var(--mainPink);
+  color: var(--mainWhite);
+}
 
 /*------------------------------
             Homepage Top
@@ -112,7 +133,7 @@ a:hover {
 }
 
 /*------------------------------
-            HEADER
+            Homepage
 --------------------------------*/
 .header {
   min-height: calc(100vh - 87px);
@@ -217,6 +238,89 @@ a:hover {
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
   }
+}
+
+/*------------------------------
+            Navbar Menu
+--------------------------------*/
+nav {
+  background: var(--mainGrey);
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: var(--mainBlack);
+  border: 0.1rem solid transparent;
+  margin: 0 0.2rem;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.nav-link:hover {
+  color: var(--mainPink);
+  border-color: var(--mainPink);
+}
+
+.nav-btn {
+  background: white;
+  color: var(--mainBlack);
+  text-transform: capitalize;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.nav-btn:hover {
+  background: var(--mainPink);
+}
+
+.toggle_btn {
+  border: 2px solid var(--mainPink);
+  padding: 5px;
+  transition: 2s all ease;
+  -webkit-transition: 2s all ease;
+  -moz-transition: 2s all ease;
+  -ms-transition: 2s all ease;
+  -o-transition: 2s all ease;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: var(--mainPink);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.change .bar_1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+  -moz-transform: rotate(-45deg) translate(-5px, 6px);
+  -ms-transform: rotate(-45deg) translate(-5px, 6px);
+  -o-transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar_2 {
+  opacity: 0;
+}
+
+.change .bar_3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+  -webkit-transform: rotate(45deg) translate(-5px, -8px);
+  -moz-transform: rotate(45deg) translate(-5px, -8px);
+  -ms-transform: rotate(45deg) translate(-5px, -8px);
+  -o-transform: rotate(45deg) translate(-5px, -8px);
 }
 
 /*------------------------------
